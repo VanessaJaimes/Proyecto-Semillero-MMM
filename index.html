@@ -13,12 +13,9 @@
   <title>Semillero</title>
 </head>
 
-
-
-<div class="container">
-  <div class="img-registro"></div>
+<div class="container" id="app">
   <form class="form" method="POST">
-    <h2>REGISTRATE</h2>
+    <h2>{{titulo}}</h2>
     <p type="Nombres:"><input placeholder="Ingresa tu nombre.." type="text" required id="nombre" name="nombre" maxlength="15" minlength="3"></input></p>
     <p type="Apellidos:"><input placeholder="Ingresa tu apellido.." type="text" required id="apellido" name="apellido" maxlength="15" minlength="3"></input></p>
     <p type="Usuario:"><input placeholder="Ingresa tu nuevo usuario.." type="text" required id="usuario" name="usuario" maxlength="15" minlength="4"></input></p>
@@ -28,3 +25,5 @@
       </div>
   </form>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+<script src="app.js"></script>
